@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "WipeTab",
+  "description": "Save, Close and Organize Tabs",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "mylogo.png",
+    "default_title": "WipeTab : Declutter your browser tabs",
+    "default_popup": "popup.html"
+},
+"icons": { "48" : "mylogo.png"
+},
+"permissions": [
+    "tabs", "storage","activeTab","fileSystem"
+  ]
+}
